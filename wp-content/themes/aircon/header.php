@@ -77,7 +77,7 @@
                         </div>
                     </div>
                     <div class="small-12 medium-2 columns hide-for-small">
-                        <ul id="brands" class="small-block-grid-">
+                        <ul id="brands" class="small-block-grid-1">
                             <li id="dantex"><img src="<?php bloginfo('template_url'); ?>/img/dantex.png"></li>
                             <li id="electrolux"><img src="<?php bloginfo('template_url'); ?>/img/electrolux.png""/></li>
                             <li id="ballu"><img src="<?php bloginfo('template_url'); ?>/img/ballu.png""/></li>
@@ -103,31 +103,39 @@
                     </div>
                 </div>
             </div>
-            <div id="header_bg" class="hide-for-small">
-                <div id="header-banner">
-                    <div id="banner-info">
-                        <p><span>СКИДКИ</span> оптовикам и установщикам</p>
-                        <p id="banner-second"><span>УСТАНОВКА</span><br>от 6000 р.</p>
+        </div>
+        <div class="row" id="banner">
+            <div class="small-12 columns">
+                <div id="header_bg" class="hide-for-small">
+                    <div class="row">
+                        <div class="small-12 columns">
+                            <div id="header-banner">
+                                <div id="banner-info">
+                                    <p><span>СКИДКИ</span> оптовикам и установщикам</p>
+                                    <p id="banner-second"><span>УСТАНОВКА</span><br>от 6000 р.</p>
+                                </div>
+                            </div>
+                            <!--                <div class="row">-->
+                            <!--                    <nav class="top-bar" data-topbar data-options="sticky_on: large">-->
+                            <!--                        <section class="top-bar-section">-->
+                            <!--                            --><?php //wp_nav_menu(
+                            //                                array(
+                            //                                    'sort_column'   => 'menu_order',
+                            //                                    'container'     => false,
+                            //                                    'menu_class'    => 'right',
+                            //                                    'theme_location'=> 'primary-menu',
+                            //                                    'menu_id'       => 'top-menu',
+                            //                                    'walker'        => new Top_Menu_Walker()
+                            //                                )
+                            //                            ); ?>
+                            <!--                        </section>-->
+                            <!--                    </nav>-->
+                            <!--                </div>-->
+                            <div class="row">
+                                <span id="header_teaser">Установка кондиционеров <br><span>во Владимире</span></span>
+                            </div>
+                        </div>
                     </div>
-                </div>
-<!--                <div class="row">-->
-<!--                    <nav class="top-bar" data-topbar data-options="sticky_on: large">-->
-<!--                        <section class="top-bar-section">-->
-<!--                            --><?php //wp_nav_menu(
-//                                array(
-//                                    'sort_column'   => 'menu_order',
-//                                    'container'     => false,
-//                                    'menu_class'    => 'right',
-//                                    'theme_location'=> 'primary-menu',
-//                                    'menu_id'       => 'top-menu',
-//                                    'walker'        => new Top_Menu_Walker()
-//                                )
-//                            ); ?>
-<!--                        </section>-->
-<!--                    </nav>-->
-<!--                </div>-->
-                <div class="row">
-                    <span id="header_teaser">Установка кондиционеров <br><span>во Владимире</span></span>
                 </div>
             </div>
         </div>

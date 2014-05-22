@@ -21,7 +21,7 @@ h2.main-heading{
 
 #header-contact{
     /*background: #eee;*/
-    margin-top: 20px;
+    margin-top: 60px;
 }
 
     #header-contact p{
@@ -88,7 +88,7 @@ h2.main-heading{
         -moz-border-radius: 0 0 0 1800px;
         -webkit-border-radius: 0 0 0 1800px;
         position: absolute;
-        right: 0px;
+        right: 15px;
         color: #fff;
         background: rgba(248, 76, 175, .5);
         /*border-radius: 300px;*/
@@ -137,10 +137,11 @@ h2.main-heading{
     /*}*/
 
 #header_bg{
-    background: url('img/header_bg.jpg');
+    /*background: url('img/header_bg.jpg');*/
+    background: url('img/header_2.png');
     background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 500px;
+    background-size: contain;
+    min-height: 345px;
     border-bottom: 1px dotted #555;
     position: relative;
 }
@@ -227,7 +228,7 @@ h2.main-heading{
     #header_bg #header_teaser{
         display: block;
         font-size: 5em;
-        margin-top: 140px;
+        margin-top: 75px;
         color: #fff;
         font-weight: 800;
         text-shadow: 2px 2px 2px #000;
@@ -292,14 +293,14 @@ div.item-title h3{
     color: #cc8428;
     text-transform: uppercase;
     font-weight: 800;
-    font-size: 1.5em;
+    font-size: 1em;
     text-align: center;
     margin: 20px;
 }
 
 div.item-desc{
     text-align: justify;
-    margin-bottom: 140px;
+    margin-bottom: 70px;
     color: #333;
 }
 
@@ -307,7 +308,7 @@ div.item-price h3{
     text-transform: uppercase;
     text-align: center;
     font-weight: 800;
-    font-size: 1.5em;
+    font-size: 1em;
     color: #990000;
 }
 
@@ -315,7 +316,7 @@ div.item-price h3{
         position: absolute;
         left: 0;
         right: 0;
-        bottom: 50px;
+        bottom: 15px;
         text-align: center;
     }
 
@@ -323,7 +324,7 @@ div.item-price h3{
             display: block;
             text-align: center;
             font-weight: 800;
-            font-size: 2em;
+            font-size: 1.5em;
             color: #990000;
         }
 
@@ -397,6 +398,13 @@ div#footer div#address a{
 hr{
     border: 1px solid #555;
     margin: 20px 15px;
+}
+
+.full-width{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: initial;
 }
 
 /*-----------aligns from original wp theme*/

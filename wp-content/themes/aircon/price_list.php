@@ -29,12 +29,12 @@ foreach($categories as $category):
         <img class="aircon-label" alt="Купить кондиционеры <?php echo get_category_by_slug($category)->name;?>" src="<?php bloginfo('template_url'); ?>/img/<?php echo $category;?>.png"/>
     </div>
     <?php
-    $query = new WP_Query("post_type=conditioner&category_name=$category");
+    $query = new WP_Query("post_type=conditioner&category_name=$category&orderby=menu_order&order=ASC");
     if($query->have_posts()){
         while($query->have_posts()){
             $query->the_post();
             ?>
-            <div class="medium-4 columns item-block" data-equalizer-watch>
+            <div class="medium-3 columns item-block" data-equalizer-watch>
                 <a href="<?php echo esc_url(get_permalink(get_the_ID()));?>">
                     <div class="item-wrap">
                         <div class="item-thumb"><?php echo get_the_post_thumbnail();?></div>
